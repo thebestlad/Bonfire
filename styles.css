@@ -1,0 +1,566 @@
+*{
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.angry{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.myimg{
+    height: 50px;
+    animation-duration: 0.5s;
+}
+.linkbuttons a{
+font-size: 20px;
+text-decoration: none;
+color: black;
+height: 90px;
+display: flex;
+align-items: center;
+padding-left: 20px;
+padding-right: 20px;
+}
+.linkbuttons{
+    display: flex;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 180px;
+}
+
+.social button{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    font-size: 20px;
+}
+.b1{
+    background-color: #3b5998;
+    color: white;
+}
+.b2{
+    background-color: #00aced;
+    color: white;
+}
+.b3{
+    background-color: #bb0000;
+    color: white;
+}
+.b4{
+    background-color: #517fa4;
+    color: white;
+}
+.myimg:hover{
+    transform: scale(1.03);
+}
+.linkbuttons a:hover{
+background-color: black;
+color: white;
+text-decoration: underline;
+}
+.b1:hover{
+background-color: transparent;
+border: 2px solid #3b5998;
+color: #3b5998;
+}
+.b2:hover{
+background-color: transparent;
+border: 2px solid #00aced;
+color: #00aced;
+}
+.b3:hover{
+background-color: transparent;
+border: 2px solid #bb0000;
+color: #bb0000;
+}
+.b4:hover{
+background-color: transparent;
+border: 2px solid #517fa4;
+color: #517fa4;
+}
+.hello{
+    width: 100px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-image: url('https://www.angrybirds.com/wp-content/themes/angrybirds/assets/img/ab-creators-navigation-item.png');
+}
+.hello:hover{
+background-image: url('https://www.angrybirds.com/wp-content/themes/angrybirds/assets/img/ab-creators-navigation-item-hover.png');
+}
+
+
+
+.blist{
+    display: none;
+    background-color: transparent;
+    border: none;
+    height: 50px;
+    font-size: 30px;
+}
+@media screen and (max-width: 600px){
+    .linkbuttons{
+        display: none;
+    }
+    .social{
+        display: none;
+    }
+    .blist{
+        display: flex;
+        align-items: center;
+    }
+}
+.a{
+    display: flex;
+    background-size: cover;
+    height: 80vh;
+    background-image: url('https://d21tktytfo9riy.cloudfront.net/wp-content/uploads/2018/12/18105208/BREAMBLAST_201812_1920x700_PreRegBG.jpg');
+}
+.innera1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    height: 100%;
+    text-align: center;
+}
+.bla{
+    color: #db4777;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 900;
+}
+.innera2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.myimg3{
+    height: 85%;
+}
+.myimg4{
+    height: 500px;
+}
+.bpanel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://d21tktytfo9riy.cloudfront.net/wp-content/uploads/2016/02/03135724/AB2_Clansbanners_1920x750_BG.jpg');
+    background-size: cover;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+
+.sep1{
+    width: 100vw;
+    height: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sep1 img{
+    position: relative;
+    z-index: 5;
+    width: 100%;
+}
+.sep2{
+    width: 100vw;
+    height: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sep2 img{
+    position: relative;
+    z-index: 5;
+    width: 100%;
+    height: 100px;
+}
+.cpanel{
+    background-image: url('https://d21tktytfo9riy.cloudfront.net/wp-content/uploads/2019/12/10124308/BG_Bamboo_01.png');
+    display: flex;
+    background-size: cover;
+    height: 80vh;
+}
+.innerc1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    height: 100%;
+    text-align: center;
+}
+.mytxt1{
+        color: #ffec00;
+            font-weight: 700;
+            font-style: italic;
+            line-height: 1.1;
+            text-transform: uppercase;
+        }
+
+        .mytxt2{
+            color: whitesmoke;
+            font-size: 20px;
+        }
+        .aarav{
+            background-color: #F4D03F;
+            border-radius: 10px;
+            height: 50px;
+            width: 140px;
+            border: none;
+            font-size: 20px;
+            font-weight: 700;
+        }
+        .aarav:hover{
+     background-image: linear-gradient(to bottom, gold, yellow);
+        }
+        .aarav1{
+            background-color: #F4D03F;
+            border-radius: 10px;
+            height: 50px;
+            width: 140px;
+            border: none;
+            font-size: 20px;
+            font-weight: 700;
+        }
+        .aarav1:hover{
+     background-image: linear-gradient(to bottom, gold, yellow);
+        }
+        .innerc2{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .wassup{
+            height: 400px;
+        }
+        .sep3{
+            width: 100vw;
+    height: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        }
+        .sep3 img{
+            position: relative;
+    z-index: 5;
+    width: 100%;
+        }
+        .paneld{
+            display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    flex-direction: column;
+            background-image: url('https://d21tktytfo9riy.cloudfront.net/wp-content/uploads/2017/06/14120101/AB_Evolution_Keyart_bg.jpg');
+        }
+        .sep4{
+            width: 100vw;
+    height: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        }
+        .sep4 img{
+            position: relative;
+    z-index: 5;
+    width: 100%;
+        }
+        .epanel{
+            display: flex;
+            height: 80vh;
+            justify-content: center;
+            align-items: center;
+            background-size: cover;
+            flex-direction: column;
+            background-image: url('https://d21tktytfo9riy.cloudfront.net/wp-content/uploads/2016/02/03111300/ABMatch_abcom_background.jpg');
+        }
+        .sep5{
+            width: 100vw;
+    height: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        }
+        .sep5 img{
+            position: relative;
+    z-index: 5;
+    width: 100%;
+        }
+        .sep6{
+            width: 100vw;
+    height: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        }
+        .sep6 img{
+            position: relative;
+    z-index: 5;
+    width: 100%;
+        }
+.fpanel{
+    display: flex;
+    background-size: cover;
+    height: 80vh;
+ background-image: url('https://d21tktytfo9riy.cloudfront.net/wp-content/uploads/2019/07/31125706/ab-beach-bg.jpg');
+}
+.innerpanelf{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    height: 100%;
+    text-align: center;
+}
+.krish{
+    color: #bb0000;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 1.1;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.gpanel{
+    display: flex;
+    background-size: cover;
+    height: 30vh;
+ background-image: url('https://d21tktytfo9riy.cloudfront.net/wp-content/uploads/2018/04/17151454/AB_Springbottompic_1920x520.jpg');
+}
+.hpanel{
+    display: flex;
+justify-content: center;
+background-color: black;
+height: 50vh;
+text-align: center;
+flex-direction: column;
+
+}
+.info{
+    display: flex;
+    justify-content: center;
+background-color: transparent;
+height: 90px;
+}
+.info a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: transparent;
+    height: 100px;
+    cursor: pointer;
+    }
+    .social1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 180px;
+        background-color: transparent;
+        height: 50px;
+        justify-content: space-between;
+        padding:0;
+    }
+    .social1 button{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        border: none;
+        font-size: 20px;
+    }
+    .b11{
+        background-color: #3b5998;
+        color: white;
+        height: 70px;
+    }
+    .b21{
+        background-color: #00aced;
+        color: white;
+    }
+    .b31{
+        background-color: #bb0000;
+        color: white;
+    }
+    .b41{
+        background-color: #517fa4;
+        color: white;
+    }
+    .b11:hover{
+        background-color: transparent;
+        border: 2px solid #3b5998;
+        color: #3b5998;
+        }
+        .b21:hover{
+        background-color: transparent;
+        border: 2px solid #00aced;
+        color: #00aced;
+        }
+        .b31:hover{
+        background-color: transparent;
+        border: 2px solid #bb0000;
+        color: #bb0000;
+        }
+        .b41:hover{
+        background-color: transparent;
+        border: 2px solid #517fa4;
+        color: #517fa4;
+        }
+.Rov:hover{
+    transform: scale(1.09);
+}
+.Rov{
+    transition-duration: 0.2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px){
+    .a{
+display: flex;
+flex-direction: column-reverse;
+
+    }
+    .innera1{
+     width: 100%;
+     justify-content: center;
+     align-items: center;
+ }
+ .innera2{
+     width: 100%;
+height: 300px;
+margin-top: 70px;
+ }
+.bpanel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+.myimg4{
+    display: flex;
+    height: 300px;
+    margin-top: 50px;
+}
+
+.cpanel{
+ display: flex;
+flex-direction: column-reverse;
+}
+.innerc1{
+ width: 100%;
+ justify-content: center;
+ align-items: center;
+}
+.innerc2{
+ width: 100%;
+}
+.wassup{
+    margin-top: 100px;
+    height: 200px;
+}
+.paneld{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.AGG{
+    height: 300px;
+    width: 250px;
+}
+.epanel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+}
+.imgagg{
+    width: 100px;
+}
+.fpanel{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.innerpanelf{
+    width: 100%;
+height: 200px;
+margin-top: 100px;
+flex-direction: column;
+}
+.aarav1{
+    height: 1000px;
+}
+.KG{
+height: 80px;
+width: 230px;
+}
+.krish{
+font-size: 30px;
+}
+.aarav{
+height: 50px;
+}
+.w{
+    width: 300px;
+height: 200px;
+margin-top: 70px;
+}
+.hpanel{
+    display: flex;
+    width: 100%;
+}
+.social1{
+display: flex;
+flex-direction: row;
+}
+.CODE{
+    font-size: 10px;
+}
+.Rov{
+background-size: 100px;
+}
+}
+
